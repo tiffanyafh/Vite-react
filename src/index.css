@@ -1,0 +1,109 @@
+.top-header{
+  background-color: hsl(57, 87%, 85%);
+  text-align: center;
+}
+.title {
+  color: rgb(242, 5, 88);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+}
+.homepic img{
+  width: calc(100vw - 16px);
+  margin: 0;
+  padding: 0;
+}
+/* .side-icons {
+} */
+.header-menu { 
+  display: flex;
+  justify-content: center;
+}
+.menu-botton {
+  background-color: transparent;
+  color: black;
+  padding: 6px 10px;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  
+}
+.menu-botton a {
+  text-decoration: none;
+  color: black;
+
+}
+.menu-botton:hover {
+  background-color: hsl(0, 33%, 94%);
+
+}
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  font-family: Helvetica, sans-serif;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 hsla(0, 0%, 0%, 0.1);
+  z-index: 1;
+  border-radius: 5px;
+
+}
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+
+}
+.dropdown-content a {
+  color: black;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: .9em;
+  border-radius: 5px;
+
+}
+.dropdown-content a:hover {
+  background-color: hsl(0, 33%, 94%);
+}
+.featured-products h2 {
+  color: rgb(242, 5, 88);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  column-gap: 1em;
+}
+.box{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  text-align: space-evenly;
+  position: relative;
+}
+.box p {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.box img {
+  border-radius: 5px;
+  width: 200px;
+  height: 250px;
+}
+footer {
+  background-color:  hsl(57, 87%, 85%);
+  padding: 10px;
+  text-align: center;
+}
